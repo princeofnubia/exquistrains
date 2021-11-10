@@ -1,52 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .a {
+        height: 100px;
+        margin: 30px 50px;
+        border: 1px solid #4caf50;
+      }
+
+      .b {
+        height: 100px;
+        margin: 30px 50px;
+        padding: 30px 30px;
+        border: 1px solid #4caf50;
+      }
+    </style>
   </head>
-  <style>
-    .my-list {
-      background-color: brown;
-    }
-    .image-div {
-      margin-top: 20px;
-      background-image: url("./image/pic.jpg");
-      height: 400px;
-      width: 90vw;
-      background-repeat: no-repeat;
-      background-position: center top;
-    }
-    .m {
-      margin: 20px;
-    }
-    .border-a {
-      border-style: dashed;
-    }
-    .border-b {
-      border-left-style: solid;
-      border-left-color: green;
-      border-left-width: 5px;
-      border-radius: 100px;
-      background-color: aliceblue;
-      padding: 20px;
-    }
-    .border-c {
-      border-style: dotted;
-    }
-    .border-d {
-      border-style: double;
-    }
-  </style>
   <body>
-    <h1>Image Loading</h1>
-    <div class="image-div"></div>
-    <h1>Borders</h1>
-    <div class="border-a m">border a is dashed</div>
-    <div class="border-b m">Dear User you are welcome</div>
-    <div class="border-c m">border c</div>
-    <div class="border-d m">border d</div>
+    <h2>CSS Margins, Padding, Model</h2>
+
+    <div class="a">
+      This element has a margin of 30px to the top, 50px to the right, 30px to
+      the bottom, 50px to the left.
+    </div>
+
+    <div class="b">
+      This element has a margin of 30px to the top, 50px to the right, 30px to
+      the bottom, 50px to the left.
+    </div>
+    <span> I am under 70px margin of the element above </span>
   </body>
 </html>
